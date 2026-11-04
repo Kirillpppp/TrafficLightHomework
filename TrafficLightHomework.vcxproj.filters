@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы"><UniqueIdentifier>{5D4D8312-3188-448C-995B-80229C0604CA}</UniqueIdentifier><Extensions>cpp;c;cc;cxx;c++;cppm</Extensions></Filter>
+    <Filter Include="Файлы заголовков"><UniqueIdentifier>{5765EF86-6D51-4D6C-8996-866E9C1B76CB}</UniqueIdentifier><Extensions>h;hh;hpp</Extensions></Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp"><Filter>Исходные файлы</Filter></ClCompile>
+    <ClCompile Include="TrafficLight.cpp"><Filter>Исходные файлы</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TrafficLight.h"><Filter>Файлы заголовков</Filter></ClInclude>
+  </ItemGroup>
+</Project>
